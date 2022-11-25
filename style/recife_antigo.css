@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: sans-serif;
+  font-size: 1.1em;
+
+}
+
+body a{
+  color: black;
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+
+}
+
+body h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+body h3 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+
+
+.container {
+  background-color: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.imagem {
+  position: relative;
+  height: 450px;
+}
+
+.imagem img {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.576);
+}
+
+/*------------------------Header--------------------------*/
+
+
+header {
+  height: 20em;
+  background-image: url("https://janelasabertas.com/wp-content/uploads/2017/11/esculturas-brennand1-629x428.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.header_content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.601);
+  padding: 15px;
+  border-radius: 30px;
+
+}
+
+/*------------------------Sumario--------------------------*/
+
+.sumario, .ref_links {
+  background: lightgray;
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.694);
+  margin-bottom: 30px;
+
+}
+
+/*------------------------O_que-e--------------------------*/
+
+#o_que-e {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+#o_que-e p {
+  margin-bottom: 10px;
+
+}
+
+/*------------------------O_que-fazer--------------------------*/
+
+#o_que-fazer {
+  margin-bottom: 30px;
+}
+
+#o_que-fazer p{
+  margin-bottom: 10px;
+}
+
+.imagens {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagens img {
+  flex-shrink: 1;
+  max-width: 50%;
+  padding: 6px;
+}
+
+/*------------------------footer--------------------------*/
+
+footer {
+  height: 200px;
+  background-image: url("https://janelasabertas.com/wp-content/uploads/2017/11/esculturas-brennand6-690x460.jpg");
+  background-position: center ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_footer {
+  background-color: rgba(0, 0, 0, 0.735);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;  
+  font-size: 1.1em;
+}
+
+.content_footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+

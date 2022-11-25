@@ -51,8 +51,8 @@ header .content_header {
 /*------------------------Sumario--------------------------*/
 
 
-#sumario, .ref_links {
-  height: 10vh;
+#sumario, .ref_links, .aside_links {
+  height: 100px;
   background-color: lightgray;
   padding: 10px;
   border: 1px solid;
@@ -108,7 +108,7 @@ header .content_header {
 /*------------------------footer--------------------------*/
 
 footer {
-  height: 10vh;
+  height: 100px;
   background-image: url(../assets/thiago-japyassu-FVK9Kb5C5XQ-unsplash.jpg);
   background-position: center;
   background-size: cover;
@@ -131,4 +131,16 @@ footer {
 
 .content_footer a:hover{
   text-decoration: underline;
+}
+
+/*------------------------aside--------------------------*/
+
+.other_links {
+margin-bottom: 30px;
+}
+
+.aside_links {
+  
+  margin: auto;
+  padding: 30px;
 }
