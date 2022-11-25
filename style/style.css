@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: sans-serif;
+}
+body h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 700px;
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.725);
+  margin-bottom: 30px;
+}
+/*------------------------Header--------------------------*/
+
+header {
+  height: 20em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/thiago-japyassu-l7fds9EoG1g-unsplash.jpg);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+header .content_header {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.73);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius:  20px;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+/*------------------------Sumario--------------------------*/
+
+
+#sumario, .ref_links {
+  height: 10vh;
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 50%;
+  margin-bottom: 30px;
+
+}
+
+/*------------------------marco_zero--------------------------*/
+
+#marco_zero, #recife {
+  text-align: justify;
+  text-indent: 30px;
+  margin-bottom: 30px;
+}
+
+/*------------------------recife--------------------------*/
+
+#recife p {
+  margin-bottom: 10px;
+}
+
+/*------------------------imagens--------------------------*/
+
+.imagens {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.477);
+  margin-bottom: 30px;
+}
+
+.imagens img {
+  flex-shrink: 1;
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  
+}
+
+/*------------------------ref--------------------------*/
+
+
+.ref_links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/*------------------------footer--------------------------*/
+
+footer {
+  height: 10vh;
+  background-image: url(../assets/thiago-japyassu-FVK9Kb5C5XQ-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_footer {
+  background-color: rgba(0, 0, 0, 0.735);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;  
+}
+
+.content_footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.content_footer a:hover{
+  text-decoration: underline;
+}
